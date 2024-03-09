@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../../db/visa'
+import QuizCard from "../components/QuizCard.astro"
+import Ad3 from '../components/adx/ad3.astro';
+import Ad4 from '../components/adx/ad4.astro';
+
+---
+<Layout>
+	<>
+	<Ad3 />
+  {data.map(x=><QuizCard x={x} />)}
+	</>
+</Layout>
+
+
