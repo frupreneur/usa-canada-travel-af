@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import firstImage from "./../../public/usa-canada-visa-jobs.webp";
+---
+
+<Layout
+	title="USA and Canada Visa Requirements - Jobs and Loans programs in USA and Canada for immigrants"
+	description="In the pursuit of better opportunities and a higher standard of living, many individuals consider relocating to countries like the USA and Canada. However, the journey towards obtaining a visa, securing a job, and managing finances can be daunting. This article aims to provide an in-depth exploration of the visa requirements for both countries, along with insights into job prospects and loan options available to immigrants."
+>
+	<h1 id="cta" class="hidden">Watch Video Below</h1>
+	<div
+		class="h-[350px] w-[350px] bg-secondary/30 relative flex justify-center items-center mx-auto mt-10"
+		id="adHolder2"
+	>
+		<p>p1</p>
+	</div>
+</Layout>
+
+<script>
+	const adHolder = document.querySelector("#adHolder2");
+	// const adEl = document.querySelector("#ad");
+	// const playBTNEl = document.querySelector("#svg");
+	const CTA = document.querySelector("#cta");
+	const header = document.querySelector("header");
+
+	if (adHolder) {
+		adHolder.innerHTML += `<p>p2</p>`;
+	}
+</script>
+
+<style>
+	.removeMargin {
+		margin-top: 0px;
+	}
+
+	.deactivate {
+		display: none;
+	}
+</style>

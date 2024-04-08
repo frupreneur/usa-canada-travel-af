@@ -17,6 +17,11 @@ import firstImage from "./../../public/usa-canada-visa-jobs.webp";
 		class="h-[350px] w-[350px] bg-secondary/30 relative flex justify-center items-center mx-auto mt-10"
 		id="adHolder"
 	>
+		<div
+			id="div-gpt-ad-1709904313696-0"
+			style="min-width: 250px; min-height: 250px;"
+		>
+		</div>
 	</div>
 	<div class="mt-[5000px]" id="contentHolder">
 		<article>
@@ -122,7 +127,7 @@ import firstImage from "./../../public/usa-canada-visa-jobs.webp";
 				future abroad.
 			</p>
 			<div
-				id="div-gpt-ad-1712613501862-0"
+				id="div-gpt-ad-1709904634423-0"
 				style="min-width: 250px; min-height: 250px;"
 			>
 			</div>
@@ -154,10 +159,7 @@ import firstImage from "./../../public/usa-canada-visa-jobs.webp";
 			}
 
 			CTA?.classList.remove("hidden");
-			adHolder.innerHTML = `<div id='div-gpt-ad-1712615101797-0' style='min-width: 250px; min-height: 250px;'>
- 
-</div>
-
+			adHolder.innerHTML += `
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="5em"
@@ -174,39 +176,7 @@ import firstImage from "./../../public/usa-canada-visa-jobs.webp";
 		}
 
 		document.documentElement.style.overflow = "hidden";
-
-		setTimeout(async function () {
-			try {
-				// @ts-ignore
-				googletag.cmd.push(function () {
-					// @ts-ignore
-					googletag.display("div-gpt-ad-1712615101797-0");
-				});
-				console.log(`loaded ad div-gpt-ad-1712615101797-0`);
-			} catch (error) {
-				console.log(error);
-			}
-		}, 500);
 	} else {
-		if (adHolder) {
-			adHolder.innerHTML = `<div id='div-gpt-ad-1712615101797-0' style='min-width: 250px; min-height: 250px;'>
- 
-</div>`;
-
-			setTimeout(async function () {
-				try {
-					// @ts-ignore
-					googletag.cmd.push(function () {
-						// @ts-ignore
-						googletag.display("div-gpt-ad-1712615101797-0");
-					});
-					console.log(`loaded ad div-gpt-ad-1712615101797-0`);
-				} catch (error) {
-					console.log(error);
-				}
-			}, 500);
-		}
-
 		if (contentHolder) {
 			contentHolder.classList.add("removeMargin");
 		}
