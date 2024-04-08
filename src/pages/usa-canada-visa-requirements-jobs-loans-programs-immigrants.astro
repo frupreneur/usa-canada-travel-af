@@ -1,0 +1,224 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../../db/visa";
+import QuizCard from "../components/QuizCard.astro";
+import Ad3 from "../components/adx/ad3.astro";
+import Ad4 from "../components/adx/ad4.astro";
+import { Image } from "astro:assets";
+import firstImage from "./../../public/usa-canada-visa-jobs.webp";
+---
+
+<Layout
+	title="USA and Canada Visa Requirements - Jobs and Loans programs in USA and Canada for immigrants"
+	description="In the pursuit of better opportunities and a higher standard of living, many individuals consider relocating to countries like the USA and Canada. However, the journey towards obtaining a visa, securing a job, and managing finances can be daunting. This article aims to provide an in-depth exploration of the visa requirements for both countries, along with insights into job prospects and loan options available to immigrants."
+>
+	<h1 id="cta" class="hidden">Watch Video Below</h1>
+	<div
+		class="h-[350px] w-[350px] bg-secondary/30 relative flex justify-center items-center mx-auto mt-10"
+		id="adHolder"
+	>
+	</div>
+	<div class="mt-[5000px]" id="contentHolder">
+		<article>
+			<h1>
+				USA and CANADA Visa Requirements: Jobs and Loans programs in USA and
+				Canada for immigrants
+			</h1>
+			<Image
+				src={firstImage}
+				width="400"
+				height="400"
+				alt="USA Canada Jobs and Visa Requirements"
+			/>
+			<p>
+				In the pursuit of better opportunities and a higher standard of living,
+				many individuals consider relocating to countries like the USA and
+				Canada. However, the journey towards obtaining a visa, securing a job,
+				and managing finances can be daunting. This article aims to provide an
+				in-depth exploration of the visa requirements for both countries, along
+				with insights into job prospects and loan options available to
+				immigrants.
+			</p>
+			<h2>Visa Requirements for the USA:</h2>
+			<p>
+				The United States offers various types of visas, each catering to
+				different purposes such as tourism, education, employment, and
+				investment. Among the most sought-after visas are the H-1B visa for
+				skilled workers, the L-1 visa for intracompany transfers, the EB-5 visa
+				for investors, and the diversity visa lottery program.
+			</p>
+			<p>
+				To qualify for an H-1B visa, applicants must possess specialized skills
+				and have a sponsoring employer in the USA. The L-1 visa requires
+				applicants to have been employed by a multinational company for at least
+				one year and be transferring to a branch, affiliate, or subsidiary in
+				the USA. The EB-5 visa demands substantial investment in a new
+				commercial enterprise that creates jobs for American workers. Lastly,
+				the diversity visa lottery program randomly selects individuals from
+				countries with low rates of immigration to the USA.
+			</p>
+			<h2>Visa Requirements for Canada:</h2>
+			<p>
+				Canada offers several immigration pathways, including the Express Entry
+				system, Provincial Nominee Programs (PNPs), family sponsorship, and
+				study permits. The Express Entry system is a point-based system that
+				evaluates candidates based on factors such as age, education, work
+				experience, and language proficiency. Those with the highest
+				Comprehensive Ranking System (CRS) scores are invited to apply for
+				permanent residency.
+			</p>
+			<p>
+				PNPs allow Canadian provinces and territories to nominate individuals
+				who have the skills, education, and work experience needed in their
+				respective jurisdictions. Family sponsorship enables Canadian citizens
+				and permanent residents to sponsor their family members for immigration.
+				Study permits are granted to international students enrolled in
+				designated learning institutions in Canada.
+			</p>
+			<h2>Job Opportunities in the USA and Canada:</h2>
+			<p>
+				Both the USA and Canada offer diverse job opportunities across various
+				sectors such as technology, healthcare, finance, engineering, and
+				skilled trades. The tech industry, in particular, is thriving in cities
+				like San Francisco, Seattle, Toronto, and Vancouver. With a shortage of
+				skilled workers in certain fields, immigrants with relevant
+				qualifications and experience are often in high demand.
+			</p>
+			<p>
+				In the USA, major tech companies like Google, Apple, Microsoft, and
+				Amazon are known for sponsoring foreign talent through the H-1B visa
+				program. Similarly, Canada’s Global Talent Stream facilitates the
+				expedited hiring of highly skilled foreign workers in the tech sector.
+				Moreover, healthcare professionals, including nurses, physicians, and
+				pharmacists, are also in demand in both countries due to aging
+				populations and expanding healthcare systems.
+			</p>
+			<h2>Loan Options for Immigrants:</h2>
+			<p>
+				Managing finances as an immigrant in a new country can be challenging,
+				but there are various loan options available to assist with settling in
+				and establishing a stable financial foundation. In the USA, immigrants
+				may qualify for personal loans, mortgages, or student loans depending on
+				their credit history and financial situation.
+			</p>
+			<p>
+				In Canada, newcomers can access financial assistance through programs
+				like the Newcomer Loan offered by select banks and credit unions. These
+				loans are designed to help cover expenses such as housing,
+				transportation, and education during the settlement period.
+				Additionally, government-sponsored programs like the Canada Small
+				Business Financing Program provide support to immigrant entrepreneurs
+				looking to start or expand their businesses.
+			</p>
+			<h2>Conclusion:</h2>
+			<p>
+				Navigating the visa requirements, job market, and financial landscape of
+				a new country can be overwhelming for immigrants. However, with thorough
+				research, proper planning, and access to relevant resources, individuals
+				can embark on a successful journey towards building a fulfilling life in
+				countries like the USA and Canada. From securing the right visa to
+				finding employment opportunities and accessing financial support,
+				immigrants have numerous pathways to realize their dreams of a brighter
+				future abroad.
+			</p>
+			<div
+				id="div-gpt-ad-1712613501862-0"
+				style="min-width: 250px; min-height: 250px;"
+			>
+			</div>
+		</article>
+	</div>
+</Layout>
+
+<script>
+	const adHolder = document.querySelector("#adHolder");
+	// const adEl = document.querySelector("#ad");
+	// const playBTNEl = document.querySelector("#svg");
+	const CTA = document.querySelector("#cta");
+	const contentHolder = document.querySelector("#contentHolder");
+	const header = document.querySelector("header");
+
+	// adEl?.addEventListener("click", function () {
+	// 	console.log("clicked Ad");
+	// });
+	// playBTNEl?.addEventListener("click", function () {
+	// 	console.log("clicked Play Button");
+	// });
+
+	const showAd = localStorage.getItem("show");
+
+	if (showAd) {
+		if (adHolder) {
+			if (header) {
+				header.style.display = "none";
+			}
+
+			CTA?.classList.remove("hidden");
+			adHolder.innerHTML = `<div id='div-gpt-ad-1712615101797-0' style='min-width: 250px; min-height: 250px;'>
+ 
+</div>
+
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="5em"
+			height="5em"
+			viewBox="0 0 24 24"
+			class="text-primary/50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+			id="svg"
+		>
+			<path
+				fill="currentColor"
+				d="m10 16.5l6-4.5l-6-4.5M22 12c0-5.54-4.46-10-10-10c-1.17 0-2.3.19-3.38.56l.7 1.94c.85-.34 1.74-.53 2.68-.53c4.41 0 8.03 3.62 8.03 8.03s-3.62 8.03-8.03 8.03S3.97 16.41 3.97 12c0-.94.19-1.88.53-2.72l-1.94-.66C2.19 9.7 2 10.83 2 12c0 5.54 4.46 10 10 10s10-4.46 10-10M5.47 3.97c.85 0 1.53.71 1.53 1.5C7 6.32 6.32 7 5.47 7c-.79 0-1.5-.68-1.5-1.53c0-.79.71-1.5 1.5-1.5"
+			></path>
+		</svg>`;
+		}
+
+		document.documentElement.style.overflow = "hidden";
+
+		setTimeout(async function () {
+			try {
+				// @ts-ignore
+				googletag.cmd.push(function () {
+					// @ts-ignore
+					googletag.display("div-gpt-ad-1712615101797-0");
+				});
+				console.log(`loaded ad div-gpt-ad-1712615101797-0`);
+			} catch (error) {
+				console.log(error);
+			}
+		}, 500);
+	} else {
+		if (adHolder) {
+			adHolder.innerHTML = `<div id='div-gpt-ad-1712615101797-0' style='min-width: 250px; min-height: 250px;'>
+ 
+</div>`;
+
+			setTimeout(async function () {
+				try {
+					// @ts-ignore
+					googletag.cmd.push(function () {
+						// @ts-ignore
+						googletag.display("div-gpt-ad-1712615101797-0");
+					});
+					console.log(`loaded ad div-gpt-ad-1712615101797-0`);
+				} catch (error) {
+					console.log(error);
+				}
+			}, 500);
+		}
+
+		if (contentHolder) {
+			contentHolder.classList.add("removeMargin");
+		}
+	}
+</script>
+
+<style>
+	.removeMargin {
+		margin-top: 0px;
+	}
+
+	.deactivate {
+		display: none;
+	}
+</style>
